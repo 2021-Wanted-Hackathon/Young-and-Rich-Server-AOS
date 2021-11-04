@@ -46,6 +46,11 @@
             android:screenOrientation="portrait"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".src.plannerlist_detail.PlannerListDetailActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

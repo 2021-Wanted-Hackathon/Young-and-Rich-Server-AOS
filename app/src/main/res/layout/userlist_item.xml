@@ -42,6 +42,7 @@
         android:background="@drawable/background_view4">
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userlist_item_const1_txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="쇼핑"
@@ -56,6 +57,7 @@
             />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userlist_item_const1_txt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="500,000원"

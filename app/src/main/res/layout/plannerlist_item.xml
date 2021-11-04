@@ -20,6 +20,7 @@
         android:elevation="5dp">
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/plannerList_item_txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="쇼핑"
@@ -33,6 +34,7 @@
             android:layout_marginBottom="15dp"/>
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/plannerList_item_txt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="500,000원"
