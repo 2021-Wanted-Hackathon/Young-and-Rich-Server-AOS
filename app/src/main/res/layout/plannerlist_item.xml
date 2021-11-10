@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="쇼핑"
             android:textSize="15dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -37,13 +37,23 @@
             android:id="@+id/plannerList_item_txt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="500,000원"
-            android:textColor="@color/white"
+            android:text="500,000원 / "
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/plannerList_item_txt3"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/plannerList_item_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="350,000원"
+            android:textColor="@color/blackForText"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="15dp"/>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

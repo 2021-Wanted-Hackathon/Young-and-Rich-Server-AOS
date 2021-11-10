@@ -37,8 +37,7 @@ class PlannerList2Adapter(private val context: Context, var planner2ArrayList: M
         RecyclerView.ViewHolder(binding.root) {
         fun bind(plannerlist2: plannerlist2, num: Int, context: Context) {
 
-            binding.plannerListItem2Txt1.text = plannerlist2.tag2
-            binding.plannerListItem2Txt2.text = "${plannerlist2.price}원"
+            binding.plannerListItem2Txt2.text = plannerlist2.tag2
         }
     } //ViewHolder는 클래스 내에 View를 저장하는 변수를 만들어 그 안에 데이터를 직접 연결시킬 수 있는 클래스, 디자인 패턴
 

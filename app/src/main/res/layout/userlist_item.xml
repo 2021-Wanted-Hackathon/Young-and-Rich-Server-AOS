@@ -10,63 +10,48 @@
     <View
         android:id="@+id/userlist_item_view1"
         android:layout_width="3dp"
-        android:layout_height="130dp"
+        android:layout_height="100dp"
         android:background="#3B6C5F"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="15dp"/>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/userlist_item_txt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2021.10.31"
-        android:textSize="15dp"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@id/userlist_item_view1"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"/>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/userlist_item_const1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/userlist_item_txt1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/userlist_item_view1"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/background_view4">
+        android:background="@drawable/background_view4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/userlist_item_view1">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/userlist_item_const1_txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="쇼핑"
-            android:textSize="15dp"
-            android:textColor="@color/white"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginStart="15dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
-            />
+            android:text="쇼핑"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/userlist_item_const1_txt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="500,000원"
-            android:textColor="@color/white"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="15dp"
-            android:layout_marginBottom="30dp"/>
+            android:layout_marginBottom="30dp"
+            android:text="500,000원"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
