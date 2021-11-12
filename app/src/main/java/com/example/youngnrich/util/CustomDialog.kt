@@ -22,6 +22,10 @@ class CustomDialog(context: Context) : Dialog(context) {
         setCancelable(false)
         window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         window!!.setDimAmount(0.5f)
+
+        binding.addPlannerImg1.setOnClickListener(){
+            this.dismiss()
+        }
     }
 
     override fun show() {

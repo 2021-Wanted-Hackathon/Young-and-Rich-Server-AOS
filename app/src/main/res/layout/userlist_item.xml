@@ -10,8 +10,8 @@
     <View
         android:id="@+id/userlist_item_view1"
         android:layout_width="3dp"
-        android:layout_height="100dp"
-        android:background="#3B6C5F"
+        android:layout_height="80dp"
+        android:background="#215F39"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="15dp"/>
@@ -19,39 +19,76 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/userlist_item_const1"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_marginStart="15dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/background_view4"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/userlist_item_view1">
+        app:layout_constraintStart_toEndOf="@id/userlist_item_view1"
+        android:elevation="5dp">
+
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/userlist_item_const1_txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
-            android:text="쇼핑"
+            android:text="맥도날드 한티점"
             android:textColor="@color/black"
             android:textSize="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/userlist_item_const1_txt5"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"/>
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/userlist_item_const1_txt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginBottom="30dp"
-            android:text="500,000원"
-            android:textColor="@color/black"
+            android:text="식비"
+            android:textColor="@color/blackForText"
+            android:textSize="13dp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/userlist_item_const1_txt5"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userlist_item_const1_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="500,000원"
+            android:textColor="#215F39"
+            android:textStyle="bold"
+            android:textSize="17dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userlist_item_const1_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="잔액 120,000원"
+            android:textColor="@color/blackForText"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userlist_item_const1_txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:45"
+            android:textColor="@color/blackForText"
+            android:textSize="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="10dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

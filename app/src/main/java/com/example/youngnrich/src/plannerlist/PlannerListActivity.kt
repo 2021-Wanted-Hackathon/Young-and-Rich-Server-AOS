@@ -15,7 +15,7 @@ import com.example.youngnrich.src.home.PlannerListAdapter
 import com.example.youngnrich.src.home.plannerlist
 import com.example.youngnrich.util.CustomDialog
 
-data class plannerlist2(val tag2 : String)
+data class plannerlist2(val tag : String, val price : Int, val price2 : Int)
 
 class PlannerListActivity : BaseActivity<ActivityPlannerlistBinding>(ActivityPlannerlistBinding::inflate) {
 
@@ -37,19 +37,20 @@ class PlannerListActivity : BaseActivity<ActivityPlannerlistBinding>(ActivityPla
             override fun onClick(view: View, position: Int) {
                 val item = plannerList2[position]
                 val preferencesEditor: SharedPreferences.Editor = sSharedPreferences.edit()
-                preferencesEditor.putString("planner_tag",item.tag2)
+                preferencesEditor.putString("planner_tag",item.tag)
                 preferencesEditor.apply()
             }
         })
-        plannerlist2Adapter.addItem(plannerlist2("식비"))
-        plannerlist2Adapter.addItem(plannerlist2("쇼핑"))
-        plannerlist2Adapter.addItem(plannerlist2("교통"))
-        plannerlist2Adapter.addItem(plannerlist2("카페"))
-        plannerlist2Adapter.addItem(plannerlist2("문화"))
-        plannerlist2Adapter.addItem(plannerlist2("생활"))
-        plannerlist2Adapter.addItem(plannerlist2("주거"))
-        plannerlist2Adapter.addItem(plannerlist2("건강"))
-        plannerlist2Adapter.addItem(plannerlist2("기타"))
+
+        plannerlist2Adapter.addItem(plannerlist2("식비", 380000, 500000))
+        plannerlist2Adapter.addItem(plannerlist2("쇼핑", 3000000,400000))
+        plannerlist2Adapter.addItem(plannerlist2("교통", 220000,300000))
+        plannerlist2Adapter.addItem(plannerlist2("카페",100000, 200000))
+        plannerlist2Adapter.addItem(plannerlist2("문화",0, 100000))
+        //plannerlist2Adapter.addItem(plannerlist2("생활",0, 1000000))
+        //plannerlist2Adapter.addItem(plannerlist2("주거",0, 1000000))
+        //plannerlist2Adapter.addItem(plannerlist2("건강",0, 1000000))
+        //plannerlist2Adapter.addItem(plannerlist2("기타",0, 1000000))
 
         plannerlist2Adapter.notifyDataSetChanged()
 
@@ -57,6 +58,7 @@ class PlannerListActivity : BaseActivity<ActivityPlannerlistBinding>(ActivityPla
             val dialog = CustomDialog(this)
             dialog.show()
         }
+
     }
 
     override fun finish(){
