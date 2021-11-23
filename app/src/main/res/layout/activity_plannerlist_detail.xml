@@ -45,7 +45,7 @@
             android:id="@+id/plannerlist_detail_const1_img2"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/icon_bell"
+            android:src="@drawable/icon_chart"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

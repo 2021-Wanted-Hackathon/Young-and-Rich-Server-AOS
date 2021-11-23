@@ -10,7 +10,7 @@ import com.example.youngnrich.src.plannerlist.PlannerListActivity
 import com.example.youngnrich.src.plannerlist.plannerlist2
 
 data class banklist(val tag : String, val cash : Int)
-data class plannerlist(val tag2 : String, val price : Int)
+data class plannerlist(val tag2 : String, val price : Int, val price2 : Int)
 
 class HomeActivity : BaseActivity<ActivityHomeBinding>(ActivityHomeBinding::inflate) {
     var bankList = mutableListOf<banklist>()
@@ -40,15 +40,15 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(ActivityHomeBinding::infl
         banklistAdapter.addItem(banklist("IBK기업은행", 7000000))
         banklistAdapter.notifyDataSetChanged()
 
-        plannerlistAdapter.addItem(plannerlist("식비", 500000))
-        plannerlistAdapter.addItem(plannerlist("쇼핑", 200000))
-        plannerlistAdapter.addItem(plannerlist("교통", 100000))
-        plannerlistAdapter.addItem(plannerlist("카페", 30000))
-        plannerlistAdapter.addItem(plannerlist("문화", 70000))
-        plannerlistAdapter.addItem(plannerlist("생활", 20000))
-        plannerlistAdapter.addItem(plannerlist("주거", 150000))
-        plannerlistAdapter.addItem(plannerlist("건강", 30000))
-        plannerlistAdapter.addItem(plannerlist("기타", 20000))
+        plannerlistAdapter.addItem(plannerlist("식비", 500000, 380000))
+        plannerlistAdapter.addItem(plannerlist("쇼핑", 200000, 300000))
+        plannerlistAdapter.addItem(plannerlist("교통", 100000, 220000))
+        plannerlistAdapter.addItem(plannerlist("카페", 30000,100000))
+        plannerlistAdapter.addItem(plannerlist("문화", 70000, 100000))
+        plannerlistAdapter.addItem(plannerlist("생활", 20000, 100000))
+        plannerlistAdapter.addItem(plannerlist("주거", 150000,100000))
+        plannerlistAdapter.addItem(plannerlist("건강", 30000,100000))
+        plannerlistAdapter.addItem(plannerlist("기타", 20000,100000))
         plannerlistAdapter.notifyDataSetChanged()
 
         binding.homeConst3Img1.setOnClickListener(){

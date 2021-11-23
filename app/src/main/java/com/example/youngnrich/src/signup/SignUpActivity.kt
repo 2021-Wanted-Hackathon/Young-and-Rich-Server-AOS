@@ -16,6 +16,10 @@ class SignUpActivity : BaseActivity<ActivitySignupBinding>(ActivitySignupBinding
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
+
+        binding.signupConst1Img1.setOnClickListener(){
+            onBackPressed()
+        }
     }
 
     override fun finish(){

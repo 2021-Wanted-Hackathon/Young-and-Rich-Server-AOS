@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@drawable/background_view4"
+        android:background="@drawable/background_plannerlist"
         android:layout_marginBottom="10dp"
         android:elevation="5dp">
 

@@ -35,7 +35,8 @@ class PlannerListAdapter(private val context: Context, var plannerArrayList: Mut
         fun bind(plannerlist: plannerlist, num: Int, context: Context) {
 
             binding.plannerListItemTxt1.text = plannerlist.tag2
-            binding.plannerListItemTxt2.text = "${plannerlist.price}원 / "
+            binding.plannerListItemTxt2.text = "${plannerlist.price}원 "
+            binding.plannerListItemTxt3.text = "/ ${plannerlist.price2}원 "
         }
     } //ViewHolder는 클래스 내에 View를 저장하는 변수를 만들어 그 안에 데이터를 직접 연결시킬 수 있는 클래스, 디자인 패턴
 

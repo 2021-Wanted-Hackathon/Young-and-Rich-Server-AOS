@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white">
+    android:background="@drawable/background_view">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/add_planner_img1"
@@ -89,31 +89,16 @@
             android:background="@color/blackForText"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/add_planner_const3"
-        android:layout_width="0dp"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_planner_txt3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="* 카드를 추가하려면 이곳을 누르세요"
         app:layout_constraintTop_toBottomOf="@id/add_planner_const2"
+        app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/background_view3">
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="카드 추가하기"
-            android:textSize="15dp"
-            android:textColor="@color/white"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="15dp"
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/add_planner_const4"
@@ -121,7 +106,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/add_planner_const3"
+        app:layout_constraintTop_toBottomOf="@id/add_planner_txt3"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginTop="20dp"
@@ -130,7 +115,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="금액을 입력하세요"
+            android:hint="금액을 입력하세요"
             android:textColor="@color/blackForText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -148,7 +133,6 @@
         android:text="할당 가능 잔액  :   "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/add_planner_const4"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="20dp"/>
@@ -163,4 +147,32 @@
         app:layout_constraintStart_toEndOf="@id/add_planner_txt1"
         android:layout_marginTop="15dp"
         />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/add_planner_const3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_planner_txt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/background_view2">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확 인"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

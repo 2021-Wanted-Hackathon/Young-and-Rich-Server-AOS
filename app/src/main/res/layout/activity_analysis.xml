@@ -9,7 +9,7 @@
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/plannerlist_const1"
+        android:id="@+id/home_const1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,7 +18,7 @@
         android:background="@drawable/bottom_stroke"
         >
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/plannerlist_const1_img1"
+            android:id="@+id/home_const1_img1"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/icon_user"
@@ -28,10 +28,10 @@
             android:layout_marginStart="15dp"/>
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/plannerlist_const1_txt1"
+            android:id="@+id/home_const1_txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="나의 플래너"
+            android:text="소비 분석"
             android:textSize="20dp"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +42,7 @@
             android:layout_marginBottom="15dp"/>
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/plannerlist_const1_img2"
+            android:id="@+id/home_const1_img2"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/icon_chart"
@@ -57,7 +57,7 @@
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/plannerlist_const1"
+        app:layout_constraintTop_toBottomOf="@id/home_const1"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -65,7 +65,7 @@
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/plannerlist_const2"
+                android:id="@+id/home_const2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
@@ -73,68 +73,39 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/plannerlist_const2_txt1"
+                    android:id="@+id/home_const2_txt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="금액순"
-                    android:textSize="15dp"
-                    android:textColor="@color/blackForText"
+                    android:text="카테고리 별 소비"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"/>
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/plannerlist_const2_img1"
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/home_const3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/home_const2">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/home_const3_txt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/icon_down"
-                    app:layout_constraintStart_toEndOf="@id/plannerlist_const2_txt1"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginTop="13dp"/>
-                
-                <LinearLayout
-                    android:id="@+id/plannerlist_Linear1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginTop="15dp"
-                    android:background="@drawable/background_view3">
-                    
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:src="@drawable/icon_add"
-                        android:paddingStart="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"/>
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="추가하기"
-                        android:textSize="13dp"
-                        android:textColor="@color/white"
-                        android:paddingEnd="10dp"
-                        android:layout_gravity="center"/>
-                    
-                </LinearLayout>
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/plannerlist_const2_rcyc1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintTop_toBottomOf="@id/plannerlist_const2_txt1"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="이번 달 소비"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginStart="15dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="15dp"
-                    android:layoutAnimation="@anim/layout_animation_from_bottom_to_top"
-                    tools:listitem="@layout/plannerlist_item2"/>
+                    android:layout_marginTop="15dp"/>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

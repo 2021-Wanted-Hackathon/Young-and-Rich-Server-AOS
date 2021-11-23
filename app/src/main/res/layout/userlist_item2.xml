@@ -11,7 +11,7 @@
         android:id="@+id/userlist_item_view1"
         android:layout_width="3dp"
         android:layout_height="40dp"
-        android:background="#3B6C5F"
+        android:background="#215F39"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="15dp"/>

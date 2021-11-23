@@ -13,8 +13,8 @@
     <color name="whiteForBackground">#FFFFFF</color>
     <color name="blackForText">#878787</color>
     <color name="strokeForView">#E0E0E0</color>
-    <color name="maincolor2">#288D87</color>
+    <color name="maincolor2">#4F8D63</color>
     <color name="maincolor">#8FCFDC</color>
-    <color name="maincolor3">#9DE1B0</color>
+    <color name="maincolor3">#AEEFC0</color>
     <color name="transparent">#00000000</color>
 </resources>
