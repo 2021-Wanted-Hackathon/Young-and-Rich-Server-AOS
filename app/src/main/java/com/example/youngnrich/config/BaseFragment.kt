@@ -57,6 +57,7 @@ abstract class BaseFragment<B : ViewBinding>(
     }
 
     fun progressON(context: Context){
+        /*
         progressDialog = AppCompatDialog(context)
         progressDialog.setCancelable(false)
         progressDialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -70,6 +71,7 @@ abstract class BaseFragment<B : ViewBinding>(
             }
 
         })
+        */
     }
     fun progressOFF(){
         if(progressDialog != null && progressDialog.isShowing()){

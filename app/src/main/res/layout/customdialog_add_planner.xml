@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/white">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -29,7 +29,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/background_view">
 
-        <androidx.appcompat.widget.AppCompatEditText
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="카테고리를 선택하세요"
@@ -65,7 +65,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/background_view">
 
-        <androidx.appcompat.widget.AppCompatEditText
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="카드를 선택하세요"
@@ -148,8 +148,10 @@
         android:text="할당 가능 잔액  :   "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/add_planner_const4"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/add_planner_txt2"
@@ -160,6 +162,5 @@
         app:layout_constraintTop_toBottomOf="@id/add_planner_const4"
         app:layout_constraintStart_toEndOf="@id/add_planner_txt1"
         android:layout_marginTop="15dp"
-        margin
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

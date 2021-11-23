@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const1"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -104,7 +104,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const2"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -133,7 +133,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const3"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -162,7 +162,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const4"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -191,7 +191,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const5"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -243,7 +243,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const6"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view">
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -272,7 +272,7 @@
         app:layout_constraintTop_toBottomOf="@id/signup_const7"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_view2"
         >
 
