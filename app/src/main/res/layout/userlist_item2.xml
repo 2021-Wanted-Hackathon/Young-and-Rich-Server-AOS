@@ -26,7 +26,7 @@
         app:srcCompat="@drawable/circle"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/userlist_item_txt1"
+        android:id="@+id/userlist_item2_txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2021.10.31"

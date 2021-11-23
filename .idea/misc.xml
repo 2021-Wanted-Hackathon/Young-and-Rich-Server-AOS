@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/drawable/background_view.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/drawable/background_view2.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/drawable/background_view3.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/drawable/background_view4.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_home.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_login.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_plannerlist.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_plannerlist_detail.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_signup.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/activity_splash.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/cash_item.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/customdialog_add_planner.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/plannerlist_item.xml" value="0.33" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/plannerlist_item2.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/userlist_item.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/jtrm1/AndroidStudioProjects/YoungNRich/app/src/main/res/layout/userlist_item2.xml" value="0.24139492753623187" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

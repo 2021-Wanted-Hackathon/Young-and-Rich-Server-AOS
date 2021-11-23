@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="Young &amp; Rich"
             android:textSize="20dp"
-            android:textColor="@color/blackForText"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -139,6 +139,7 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
+                    android:layoutAnimation="@anim/layout_animation_from_bottom_to_top"
                     tools:listitem="@layout/plannerlist_item"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

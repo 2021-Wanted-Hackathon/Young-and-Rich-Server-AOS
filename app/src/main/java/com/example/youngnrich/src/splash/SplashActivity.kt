@@ -11,7 +11,6 @@ import com.example.youngnrich.src.login.LoginActivity
 
 class SplashActivity : BaseActivity<ActivitySplashBinding>(ActivitySplashBinding::inflate) {
     override fun onCreate(savedInstanceState: Bundle?) {
-        overridePendingTransition(R.anim.slide_in_right, R.anim.none)
         super.onCreate(savedInstanceState)
 
         Handler(Looper.getMainLooper()).postDelayed({
